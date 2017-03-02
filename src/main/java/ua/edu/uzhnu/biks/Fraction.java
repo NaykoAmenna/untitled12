@@ -1,8 +1,6 @@
 package ua.edu.uzhnu.biks;
 
-/**
- * Created by nayko_000 on 02.03.2017.
- */
+
 public class Fraction {
     private final int numerator;
     private final int denominator;
