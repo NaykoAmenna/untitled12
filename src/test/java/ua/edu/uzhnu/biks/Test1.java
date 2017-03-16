@@ -56,6 +56,16 @@ public class Test1 {
         Assert.assertEquals(true, f2.isProper());
 
     }
+    @Test
+    public void test_toDouble_Double (){
+        Fraction f1 = new Fraction(12, 8);
+        Assert.assertEquals(1.5 , f1.toDouble(), 0.0001);
+
+
+
+
+    }
+
 
     @Test
     public void test_toString_String (){

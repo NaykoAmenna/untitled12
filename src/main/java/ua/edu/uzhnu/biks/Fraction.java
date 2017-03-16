@@ -52,7 +52,7 @@ public class Fraction {
         return numerator + "/" + denominator;
     }
 
-    public double tDouble() {
+    public double toDouble() {
         return (double) numerator / denominator;
     }
 
